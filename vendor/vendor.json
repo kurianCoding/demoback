@@ -2,5 +2,5 @@
 	"heroku": {
 		"goVersion": "go1.12"
 	},
-	"rootPath": "github.com/reagent/heroku-go-example"
+	"rootPath": "github.com/reagent/herokuappkurian"
 }
