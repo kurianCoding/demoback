@@ -1,0 +1,5 @@
+# github.com/go-sql-driver/mysql v1.5.0
+github.com/go-sql-driver/mysql
+# github.com/heroku/x v0.0.25
+github.com/heroku/x/hmetrics/onload
+github.com/heroku/x/hmetrics
