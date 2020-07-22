@@ -11,11 +11,11 @@ import (
 	"os"
 )
 
-const DB_USERNAME, _ = os.LookupEnv("DB_USERNAME")
-const DB_PWD, _ = os.LookupEnv("DB_PWD")
-const AWS_RDS_URL, _ = os.LookupEnv("AWS_RDS_URL")
-const AWS_PORT, _ = os.LookupEnv("AWS_PORT")
-const DB_NAME, _ = os.LookupEnv("DB_NAME")
+var DB_USERNAME, _ = os.LookupEnv("DB_USERNAME")
+var DB_PWD, _ = os.LookupEnv("DB_PWD")
+var AWS_RDS_URL, _ = os.LookupEnv("AWS_RDS_URL")
+var AWS_PORT, _ = os.LookupEnv("AWS_PORT")
+var DB_NAME, _ = os.LookupEnv("DB_NAME")
 
 func connect() (*sql.DB, error) {
 	//connect to mysql database
